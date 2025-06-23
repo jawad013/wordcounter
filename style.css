@@ -1,0 +1,144 @@
+/* Reset and Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f4f6fb;
+    color: #2c3e50;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.07);
+    transition: all 0.3s ease;
+}
+
+/* Header */
+.main-title {
+    font-size: 34px;
+    font-weight: 700;
+    color: #343a40;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.sub {
+    color: #6c757d;
+    margin-bottom: 25px;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* Form */
+.counter-form textarea {
+    width: 100%;
+    padding: 16px;
+    border: 1.5px solid #dee2e6;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    min-height: 180px;
+    transition: border-color 0.3s ease;
+    background-color: #f9f9f9;
+    resize: vertical;
+}
+
+.counter-form textarea:focus {
+    border-color: #646cfd;
+    outline: none;
+    background: #fff;
+}
+
+.counter-form button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #646cfd;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.counter-form button:hover {
+    background: #4d56ff;
+}
+
+/* Results Box */
+.result-box {
+    margin-top: 40px;
+    background: #eef2ff;
+    padding: 30px 25px;
+    border-radius: 20px;
+    border: 1.5px solid #dfe4ff;
+}
+
+.result-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #343a40;
+}
+
+.result-title .icon {
+    color: #646cfd;
+    margin-right: 8px;
+    vertical-align: middle;
+    font-size: 24px;
+}
+
+/* Grid Layout */
+.metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Metric Card */
+.metric-card {
+    background: #ffffff;
+    border: 1.5px solid #dee2e6;
+    border-radius: 14px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 12px rgba(100, 108, 253, 0.08);
+}
+
+.metric-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(100, 108, 253, 0.15);
+}
+
+.metric-card .icon {
+    font-size: 26px;
+    color: #646cfd;
+    margin-bottom: 6px;
+}
+
+.metric-card p {
+    font-size: 14px;
+    color: #6c757d;
+    margin: 5px 0;
+}
+
+.metric-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #212529;
+}

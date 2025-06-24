@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Color Code Converter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎨 Color Code Converter</h1>
+    <p class="powered-by">Powered by <a href="https://itleadz.com" target="_blank">IT Leadz</a></p>
+  </header>
+
+  <main>
+    <div class="converter-container">
+      <div class="left">
+        <label for="colorInput">Enter a Color</label>
+        <input type="text" id="colorInput" placeholder="Try #00bfff or rgb(0,191,255)" />
+        <div class="color-values" id="colorDetails"></div>
+      </div>
+
+      <div class="right">
+        <div class="color-picker-wrapper">
+          <input type="color" id="realColorPicker" />
+          <div class="color-preview" id="colorPreview"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
